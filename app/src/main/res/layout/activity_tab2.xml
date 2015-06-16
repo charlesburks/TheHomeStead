@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book a stay at the homestead. $120 a night special"
+        android:id="@+id/mainView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nightsEdit"
+        android:layout_below="@+id/mainView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:hint="Number of nights" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book your starting night"
+        android:id="@+id/nightBtt"
+        android:layout_marginTop="129dp"
+        android:layout_below="@+id/nightsEdit"
+        android:layout_alignRight="@+id/nightsEdit"
+        android:layout_alignEnd="@+id/nightsEdit" />
+
+
+</RelativeLayout>

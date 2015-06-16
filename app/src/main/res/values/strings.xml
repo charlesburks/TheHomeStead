@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheHomeStead</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="title_activity_tab3">Tab3</string>
+    <string name="title_activity_tab4">Tab4</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

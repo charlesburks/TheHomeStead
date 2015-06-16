@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.charlesburks.fourseasons.MainActivity"
+    android:background="#FFFFFF">
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="134dp"
+        android:layout_below="@+id/mainView">
+
+        <LinearLayout
+            android:id="@+id/mygallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="200px"
+                android:layout_height="175px"
+                android:padding="5px"
+                android:text=""
+                android:id="@+id/spingBtt"
+                android:background="@drawable/swim" />
+            <Button
+                android:layout_width="200px"
+                android:layout_height="175px"
+                android:padding="5px"
+                android:text=""
+                android:id="@+id/summerBtt"
+                android:background="@drawable/front"/>
+            <Button
+                android:layout_width="200px"
+                android:layout_height="175px"
+                android:padding="5px"
+                android:text=""
+                android:id="@+id/fallBtt"
+                android:background="@drawable/golf"/>
+            <Button
+                android:layout_width="200px"
+                android:layout_height="175px"
+                android:padding="5px"
+                android:text=""
+                android:id="@+id/winterBtt"
+                android:background="@drawable/door"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
+        android:id="@+id/mainView"
+        android:padding="10px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>
